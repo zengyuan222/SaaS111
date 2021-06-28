@@ -46,16 +46,16 @@ public class PermissionService {
     @Autowired
     private IdWorker idWorker;
     /**
-     * 1.保存
+     * 1.保存权限
      */
     public void save(Map<String,Object> map) throws Exception{
         //设置主键的值
         String id = idWorker.nextId() + "";
         //1.通过map构造permission对象
-        Permission perm = BeanMapUtils.mapToBean(map, Permission.class);
+        Permission perm = BeanMapUtils.mapToBean(map,Permission.class);
         perm.setId(id);
         //2.根据类型构造不同的资源对象（菜单，按钮，api）
-        Integer type = perm.getType();
+        int type = perm.getType();
         switch (type){
             case PermissionConstants.PERMISSION_MENU:
                 PermissionMenu menu = BeanMapUtils.mapToBean(map, PermissionMenu.class);

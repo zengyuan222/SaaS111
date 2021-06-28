@@ -13,9 +13,9 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "pe_permission")
-@Getter
-@Setter
-@NoArgsConstructor
+//@Getter
+//@Setter
+//@NoArgsConstructor
 @DynamicInsert(true)
 @DynamicUpdate(true)
 public class Permission implements Serializable {
@@ -52,11 +52,24 @@ public class Permission implements Serializable {
      */
     private Integer enVisible;
 
+    public Permission() {
+    }
+
     public Permission(String name, Integer type, String code, String description) {
         this.name = name;
         this.type = type;
         this.code = code;
         this.description = description;
+    }
+
+    public Permission(String id, String name, Integer type, String code, String description, String pid, Integer enVisible) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.code = code;
+        this.description = description;
+        this.pid = pid;
+        this.enVisible = enVisible;
     }
 
     public static long getSerialVersionUID() {

@@ -26,8 +26,8 @@ public class PermissionController {
      * 保存
      * @return
      */
-    @RequestMapping(value = "/permission",method = RequestMethod.POST)
-    public Result save(@RequestBody Map<String,Object> map) throws Exception{
+    @RequestMapping(value = "/permission", method = RequestMethod.POST)
+    public Result save(@RequestBody Map<String,Object> map) throws Exception {
         permissionService.save(map);
         return new Result(ResultCode.SUCCESS);
     }

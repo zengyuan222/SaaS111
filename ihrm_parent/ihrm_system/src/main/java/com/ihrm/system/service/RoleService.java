@@ -3,7 +3,10 @@ package com.ihrm.system.service;
 import com.ihrm.common.entity.PageResult;
 import com.ihrm.common.service.BaseService;
 import com.ihrm.common.utils.IdWorker;
+import com.ihrm.common.utils.PermissionConstants;
+import com.ihrm.domain.system.Permission;
 import com.ihrm.domain.system.Role;
+import com.ihrm.system.dao.PermissionDao;
 import com.ihrm.system.dao.RoleDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -15,7 +18,9 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * 角色操作业务逻辑层
@@ -28,6 +33,9 @@ public class RoleService extends BaseService {
 
     @Autowired
     private RoleDao roleDao;
+
+    @Autowired
+    private PermissionDao permissionDao;
 
     /**
      * 添加角色
@@ -88,4 +96,26 @@ public class RoleService extends BaseService {
     public Page<Role> findByPage(String companyId, int page, int size){
         return roleDao.findAll(getSpec(companyId), PageRequest.of(page-1, size));
     }
+
+    /**
+     * 分配权限
+     */
+    public void assignPerms(String roleId,List<String> permIds){
+        //1.获取分配的角色对象
+        Role role = roleDao.findById(roleId).get();
+        //2.构造角色的权限集合
+        Set<Permission> perms = new HashSet<>();
+        for(String permId : permIds){
+            Permission permission = permissionDao.findById(permId).get();
+            //需要根据父id和类型查询API权限列表
+            List<Permission> apiList = permissionDao.findByTypeAndPid(PermissionConstants.PERMISSION_API, permission.getPid());
+            perms.addAll(apiList); //自动赋予API权限
+            perms.add(permission);//当前菜单或按钮的权限
+        }
+        //3.设置角色和权限的关系
+        role.setPermissions(perms);
+        //4.更新角色
+        roleDao.save(role);
+    }
+
 }

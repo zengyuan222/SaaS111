@@ -5,11 +5,13 @@ import com.ihrm.common.entity.PageResult;
 import com.ihrm.common.entity.Result;
 import com.ihrm.common.entity.ResultCode;
 import com.ihrm.domain.system.User;
+import com.ihrm.domain.system.response.UserResult;
 import com.ihrm.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 
 //1.解决跨域
@@ -60,12 +62,14 @@ public class UserController  extends BaseController {
     }
 
     /**
-     * 根据ID查询department
+     * 根据ID查询user
      */
     @RequestMapping(value = "/user/{id}",method = RequestMethod.GET)
     public Result findById(@PathVariable(value = "id")String id){
+        // 添加 roleIds(用户已经具有的角色id数组)
         User user = userService.findById(id);
-        return new Result(ResultCode.SUCCESS,user);
+        UserResult userResult = new UserResult(user);
+        return new Result(ResultCode.SUCCESS,userResult);
     }
 
     /**
@@ -88,5 +92,23 @@ public class UserController  extends BaseController {
         userService.deleteById(id);
         return new Result(ResultCode.SUCCESS);
     }
+
+
+    /**
+     * 分配角色
+     */
+    @RequestMapping(value = "/user/assignRoles",method = RequestMethod.PUT)
+    public Result delete(@PathVariable(value = "id") Map<String,Object> map) {
+
+        // 1.获取被分配的用户id
+        String userId = (String) map.get("id");
+        // 2.获取角色的id列表
+        List<String> roleIds = (List<String>) map.get("roleIds");
+        // 3.完成角色分配
+        userService.assignRoles(userId,roleIds);
+        return new Result(ResultCode.SUCCESS);
+    }
+
+
 
 }
