@@ -97,9 +97,8 @@ public class UserController  extends BaseController {
     /**
      * 分配角色
      */
-    @RequestMapping(value = "/user/assignRoles",method = RequestMethod.PUT)
-    public Result delete(@PathVariable(value = "id") Map<String,Object> map) {
-
+    @RequestMapping(value = "/user/assignRoles", method = RequestMethod.PUT)
+    public Result save(@RequestBody Map<String,Object> map) {
         // 1.获取被分配的用户id
         String userId = (String) map.get("id");
         // 2.获取角色的id列表

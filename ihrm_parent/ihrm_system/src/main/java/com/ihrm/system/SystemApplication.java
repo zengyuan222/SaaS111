@@ -20,4 +20,6 @@ public class SystemApplication {
     public IdWorker idWorker(){
         return new IdWorker();
     }
+
+
 }

@@ -18,6 +18,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/sys")
 public class PermissionController {
+
     @Autowired
     private PermissionService permissionService;
 
@@ -35,8 +36,9 @@ public class PermissionController {
     /**
      * 修改Department
      */
-    @RequestMapping(value = "/permission/{id}",method = RequestMethod.PUT)
-    public Result update(@PathVariable(value = "id") String id,@RequestBody Map<String,Object> map)throws Exception{
+    @RequestMapping(value = "/permission/{id}", method = RequestMethod.PUT)
+    public Result update(@PathVariable(value = "id") String id, @RequestBody Map<String,Object> map) throws Exception {
+        //构造id
         map.put("id",id);
         permissionService.update(map);
         return new Result(ResultCode.SUCCESS);
@@ -50,7 +52,7 @@ public class PermissionController {
     @RequestMapping(value = "/permission", method = RequestMethod.GET)
     public Result findAll(@RequestParam Map map) {
         List<Permission> list = permissionService.findAll(map);
-        return new Result(ResultCode.SUCCESS);
+        return new Result(ResultCode.SUCCESS,list);
     }
 
     /**
@@ -58,7 +60,8 @@ public class PermissionController {
      */
     @RequestMapping(value = "/permission/{id}",method = RequestMethod.GET)
     public Result findById(@PathVariable(value = "id")String id) throws Exception{
-        return new Result(ResultCode.SUCCESS);
+        Map map = permissionService.findById(id);
+        return new Result(ResultCode.SUCCESS,map);
     }
 
     /**

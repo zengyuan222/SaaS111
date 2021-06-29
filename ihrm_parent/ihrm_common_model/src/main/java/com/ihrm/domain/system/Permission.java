@@ -50,7 +50,7 @@ public class Permission implements Serializable {
     /**
      * 可见状态
      */
-    private Integer enVisible;
+    private String enVisible;
 
     public Permission() {
     }
@@ -62,7 +62,7 @@ public class Permission implements Serializable {
         this.description = description;
     }
 
-    public Permission(String id, String name, Integer type, String code, String description, String pid, Integer enVisible) {
+    public Permission(String id, String name, Integer type, String code, String description, String pid, String enVisible) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -124,11 +124,11 @@ public class Permission implements Serializable {
         this.pid = pid;
     }
 
-    public Integer getEnVisible() {
+    public String getEnVisible() {
         return enVisible;
     }
 
-    public void setEnVisible(Integer enVisible) {
+    public void setEnVisible(String enVisible) {
         this.enVisible = enVisible;
     }
 }
