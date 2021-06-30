@@ -132,5 +132,15 @@ public class UserService {
     }
 
 
+    /**
+     * 根据mobile查询用户
+     * @param mobile
+     * @return
+     */
+    public User findByMobile(String mobile){
+        return userDao.findByMobile(mobile);
+    }
+
+
 
 }

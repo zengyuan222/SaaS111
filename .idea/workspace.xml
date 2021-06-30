@@ -2,66 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7e211c-5bb1-4678-a6a0-08d2f0c2ed16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/CreateJwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/ParseJwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/ihrm_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/ihrm_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/controller/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/entity/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/entity/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/entity/ResultCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/exception/CommonException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/handler/BaseExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/service/BaseService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/service/BaseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/utils/BeanMapUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/utils/IdWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/classes/com/ihrm/common/utils/PermissionConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/ihrm_common_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/ihrm_common_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/company/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/company/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/company/response/DeptListResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/system/Permission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/system/PermissionApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/system/PermissionMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/system/PermissionPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/system/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/target/classes/com/ihrm/domain/system/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/ihrm_company.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_company/ihrm_company.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/com/ihrm/company/CompanyApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/com/ihrm/company/controller/CompanyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/com/ihrm/company/controller/DepartmentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/com/ihrm/company/dao/CompanyDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/com/ihrm/company/dao/DepartmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/com/ihrm/company/service/CompanyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/classes/com/ihrm/company/service/DepartmentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_company/target/test-classes/com/ihrm/company/CompanyDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/ihrm_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/ihrm_system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/PermissionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/SystemApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/controller/PermissionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/dao/PermissionApiDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/dao/PermissionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/dao/PermissionMenuDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/dao/PermissionPointDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/dao/RoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/service/PermissionService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/service/PermissionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/service/RoleService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/service/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/service/UserService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/target/classes/com/ihrm/system/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ihrm_parent/target/" />
     <ignored path="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/" />
@@ -80,37 +30,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/CreateJwtTest.java">
+        <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="21" column="34" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/ParseJwtTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="13" column="35" selection-start-line="13" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="339">
+              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java">
+        <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="430">
+              <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -134,6 +66,7 @@
       <find>Roles</find>
       <find>assignRoles</find>
       <find>findById</find>
+      <find>map</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,20 +77,26 @@
       <list>
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/BeanMapUtils.java" />
-        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/UserResult.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/RoleResult.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/PermissionController.java" />
-        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java" />
-        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/pom.xml" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/CreateJwtTest.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/ParseJwtTest.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/Result.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" />
       </list>
     </option>
   </component>
@@ -186,7 +125,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="92" />
     <option name="y" value="64" />
     <option name="width" value="1612" />
@@ -197,8 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,61 +148,12 @@
               <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
               <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParseJwtTest">
+  <component name="RunManager" selected="Application.SystemApplication">
     <configuration name="CreateJwtTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ihrm.demo.CreateJwtTest" />
       <module name="ihrm_common" />
@@ -327,6 +215,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ihrm.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ihrm.system.SystemApplication" />
+      <module name="ihrm_system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihrm.system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,6 +263,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SystemApplication" />
         <item itemvalue="Application.ParseJwtTest" />
         <item itemvalue="Application.CreateJwtTest" />
         <item itemvalue="Spring Boot.SystemApplication" />
@@ -381,18 +283,19 @@
       <updated>1624851022317</updated>
       <workItem from="1624851025273" duration="13940000" />
       <workItem from="1624927136174" duration="16899000" />
-      <workItem from="1624969244660" duration="444000" />
+      <workItem from="1624969244660" duration="957000" />
+      <workItem from="1625013915582" duration="11721000" />
+      <workItem from="1625033915483" duration="3220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31283000" />
+    <option name="totallyTimeSpent" value="46737000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,8 +305,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2647975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19833852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2647975" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27829698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -418,7 +321,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.12686567" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.12686567" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="BPMNPalette" order="6" />
@@ -521,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -562,33 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -607,51 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
-            <element signature="e#2586#2587#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="245" column="29" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/PermissionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-583">
           <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
@@ -705,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="41" column="79" lean-forward="true" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -726,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/CreateJwtTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="21" column="34" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/ParseJwtTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -746,13 +557,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java">
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/test/java/com/ihrm/demo/CreateJwtTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="609">
+          <caret line="21" column="34" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="41" column="79" lean-forward="true" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.6.0/jjwt-0.6.0-sources.jar!/io/jsonwebtoken/Claims.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1146">
+          <caret line="139" column="44" selection-start-line="139" selection-start-column="44" selection-end-line="139" selection-end-column="44" />
+          <folding>
+            <element signature="e#4290#4291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -17,10 +17,10 @@ import java.util.Map;
 public class JwtUtils {
 
     //签名私钥
-    private String key;
+    private String key;    // 在 “jwt.config” 中配置了key的值
 
     //签名失效时间
-    private Long ttl;
+    private Long ttl;     //  在 “jwt.config” 中配置了ttl的值
 
     /**
      * 设置认证token
@@ -38,7 +38,9 @@ public class JwtUtils {
                 .setIssuedAt(new Date())     // 当前签名的时间
                 .signWith(SignatureAlgorithm.HS256, key);// (1)加密签名方式，(2)自己定义的私钥
         //3.根据map设置claims
-        jwtBuilder.setClaims(map);
+        for(Map.Entry<String,Object> entry : map.entrySet()){
+            jwtBuilder.claim(entry.getKey(),entry.getValue());
+        }
         jwtBuilder.setExpiration(new Date(exp));
         //4.创建token
         String token = jwtBuilder.compact();

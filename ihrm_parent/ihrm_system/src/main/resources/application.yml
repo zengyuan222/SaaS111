@@ -20,5 +20,8 @@ spring:
 #    hibernate:
 #      ddl-auto: create
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-
+jwt:
+  config:
+    key: saas-ihrm
+    ttl: 3600000
 
