@@ -6,9 +6,11 @@ import com.ihrm.common.entity.Result;
 import com.ihrm.common.entity.ResultCode;
 import com.ihrm.common.exception.CommonException;
 import com.ihrm.common.utils.JwtUtils;
+import com.ihrm.domain.system.Permission;
 import com.ihrm.domain.system.User;
 import com.ihrm.domain.system.response.ProfileResult;
 import com.ihrm.domain.system.response.UserResult;
+import com.ihrm.system.service.PermissionService;
 import com.ihrm.system.service.UserService;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,10 +29,13 @@ import java.util.Map;
 @RestController
 //3.设置父路径
 @RequestMapping(value = "/sys")   //company/deparment
-public class UserController  extends BaseController {
+public class UserController extends BaseController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private PermissionService permissionService;
 
     @Autowired
     private JwtUtils jwtUtils;
@@ -174,8 +179,29 @@ public class UserController  extends BaseController {
         // 3.解析token
         Claims claims = jwtUtils.parsetJwt(token);
         String userid = claims.getId();
+        // 获取用户信息
         User user = userService.findById(userid);
-        return new Result(ResultCode.SUCCESS,new ProfileResult(user));
+        ProfileResult result = null;
+
+        // 根据不同的用户级别获取用户权限
+        /**
+         *  level
+         *      String(三种类型)：
+         *          saasAdmin:saas管理员具备所有权限
+         *          coAdmin:企业管理(创建租户企业的时候添加)
+         *          user:普通用户(需要分配角色)
+         */
+        if("user".equals(user.getLevel())){
+            result = new ProfileResult(user);
+        }else {
+            Map map = new HashMap();
+            if("comAdmin".equals(user.getLevel())){
+                map.put("enVisible","1");
+            }
+            List<Permission> list = permissionService.findAll(map);  // 权限信息
+            result = new ProfileResult(user,list);
+        }
+        return new Result(ResultCode.SUCCESS,result);
 
     }
 

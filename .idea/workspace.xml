@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7e211c-5bb1-4678-a6a0-08d2f0c2ed16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ihrm_parent/target/" />
     <ignored path="$PROJECT_DIR$/ihrm_parent/ihrm_common/target/" />
@@ -29,20 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+            <state relative-caret-position="247">
+              <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+            <state relative-caret-position="3277">
+              <caret line="134" column="7" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+              <folding>
+                <element signature="e#4239#4240#0" expanded="true" />
+                <element signature="e#4290#4291#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,14 +58,24 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>roleDao</find>
-      <find>user</find>
       <find>roleIds</find>
       <find>save</find>
       <find>roles</find>
       <find>Roles</find>
       <find>assignRoles</find>
       <find>findById</find>
+      <find>mobile</find>
+      <find>company</find>
+      <find>permissionService</find>
+      <find>getLevel</find>
       <find>map</find>
+      <find>user</find>
+      <find>result</find>
+      <find>in</find>
+      <find>spec</find>
+      <find>list</find>
+      <find>perm</find>
+      <find>login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/BeanMapUtils.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" />
@@ -93,10 +101,11 @@
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/entity/Result.java" />
-        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java" />
-        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -126,10 +135,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="64" />
-    <option name="width" value="1612" />
-    <option name="height" value="909" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,12 +157,63 @@
               <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
               <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HMSassProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HMSassProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,16 +346,19 @@
       <workItem from="1624969244660" duration="957000" />
       <workItem from="1625013915582" duration="11721000" />
       <workItem from="1625033915483" duration="3220000" />
+      <workItem from="1625099896292" duration="8813000" />
+      <workItem from="1625125241294" duration="4311000" />
+      <workItem from="1625130288339" duration="171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46737000" />
+    <option name="totallyTimeSpent" value="60032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -333,6 +396,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/controller/BaseController.java">
@@ -417,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="122" column="49" lean-forward="true" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -458,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1682">
@@ -480,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-583">
           <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="102" column="64" lean-forward="true" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -627,35 +687,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common/src/main/java/com/ihrm/common/utils/JwtUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="879">
           <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
-            <element signature="e#2586#2587#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,27 +718,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="139" column="44" selection-start-line="139" selection-start-column="44" selection-end-line="139" selection-end-column="44" />
-          <folding>
-            <element signature="e#4290#4291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        <state relative-caret-position="1493">
+          <caret line="102" column="64" lean-forward="true" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+        <state relative-caret-position="-1167">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar!/javax/persistence/criteria/Predicate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1091">
+          <caret line="186" column="41" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="191" column="37" selection-start-line="191" selection-start-column="37" selection-end-line="191" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_parent/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3277">
+          <caret line="134" column="7" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+          <folding>
+            <element signature="e#4239#4240#0" expanded="true" />
+            <element signature="e#4290#4291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

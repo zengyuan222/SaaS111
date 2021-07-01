@@ -179,6 +179,7 @@ public class PermissionService {
                     }else {
                         in.value(Integer.parseInt(ty));
                     }
+                    list.add(in);
                 }
                 return criteriaBuilder.and(list.toArray(new Predicate[list.size()]));
             }
