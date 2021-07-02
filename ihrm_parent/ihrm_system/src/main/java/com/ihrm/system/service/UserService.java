@@ -114,20 +114,20 @@ public class UserService {
     }
 
     /**
-     * 6.分配角色
+     * 分配角色
      */
-    public void assignRoles(String userId,List<String> roleIds){
-        //1. 根据id查询用户
+    public void assignRoles(String userId,List<String> roleIds) {
+        //1.根据id查询用户
         User user = userDao.findById(userId).get();
-        //2. 设置用户的角色集合
+        //2.设置用户的角色集合
         Set<Role> roles = new HashSet<>();
-        for(String  roleId : roleIds){
+        for (String roleId : roleIds) {
             Role role = roleDao.findById(roleId).get();
             roles.add(role);
         }
-        // 设置用户和集合关系
+        //设置用户和角色集合的关系
         user.setRoles(roles);
-        //3. 更新用户
+        //3.更新用户
         userDao.save(user);
     }
 

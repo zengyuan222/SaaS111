@@ -170,13 +170,13 @@ public class PermissionService {
                 if(!StringUtils.isEmpty(map.get("enVisible"))) {
                     list.add(criteriaBuilder.equal(root.get("enVisible").as(String.class),(String)map.get("enVisible")));
                 }
-                //根据类型查询type
+                //根据类型 type
                 if(!StringUtils.isEmpty(map.get("type"))) {
                     String ty = (String) map.get("type");
                     CriteriaBuilder.In<Object> in = criteriaBuilder.in(root.get("type"));
-                    if("0".equals(ty)){
+                    if("0".equals(ty)) {
                         in.value(1).value(2);
-                    }else {
+                    }else{
                         in.value(Integer.parseInt(ty));
                     }
                     list.add(in);

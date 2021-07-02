@@ -15,8 +15,8 @@ import java.util.Set;
  */
 @Entity
 @Table(name = "bs_user")
-@Getter
-@Setter
+//@Getter
+//@Setter
 public class User implements Serializable {
     private static final long serialVersionUID = 4297464181093070302L;
     /**
@@ -105,8 +105,8 @@ public class User implements Serializable {
      *  JsonIgnore
      *      : 忽略json转化(防止user对role互相转换，形成死循环)
      */
-    @ManyToMany
     @JsonIgnore
+    @ManyToMany
     @JoinTable(name="pe_user_role",joinColumns={@JoinColumn(name="user_id",referencedColumnName="id")},
             inverseJoinColumns={@JoinColumn(name="role_id",referencedColumnName="id")}
     )
@@ -114,6 +114,9 @@ public class User implements Serializable {
 
     public static long getSerialVersionUID() {
         return serialVersionUID;
+    }
+
+    public User() {
     }
 
     public String getId() {
@@ -258,5 +261,13 @@ public class User implements Serializable {
 
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
     }
 }
