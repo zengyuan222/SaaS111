@@ -161,14 +161,13 @@ public class UserController extends BaseController {
      */
     @RequestMapping(value = "/profile", method = RequestMethod.POST)
     public Result profile(HttpServletRequest request) throws Exception{
-
         /**
          * 从请求头信息中获取token数据
          *     1.获取请求头信息：名称=Authorization
          *     2.替换Bearer+空格
          *     3.解析token
          *     4.获取clamis
-         */
+
         //1.获取请求头信息：名称=Authorization
         String authorization = request.getHeader("Authorization");
         if(StringUtils.isEmpty(authorization)){
@@ -178,6 +177,10 @@ public class UserController extends BaseController {
         String token = authorization.replace("Bearer ", "");
         // 3.解析token
         Claims claims = jwtUtils.parsetJwt(token);
+         */
+
+        //Claims claims =(Claims) request.getAttribute("user_claims");
+
         String userid = claims.getId();
         // 获取用户信息
         User user = userService.findById(userid);
